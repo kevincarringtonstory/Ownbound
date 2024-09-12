@@ -11,7 +11,7 @@ func center_camera():
 	$Player.position = viewport_size / 2
 	$Player/Camera2D.make_current()
 
-func _process(delta):
+func _process(_delta):
 	update_trail()
 	queue_redraw()
 
