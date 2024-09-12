@@ -1,21 +1,21 @@
 extends CharacterBody2D
 
-var max_speed = 200
-var acceleration = 1000
-var friction = 800
+var speed = 100  # Adjust this value to match Undertale's movement speed
 
 func _physics_process(delta):
-	var input_vector = Vector2.ZERO
-	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
-	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
-	input_vector = input_vector.normalized()
-
+	var input_vector = Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	
+	velocity = input_vector * speed
+	
 	if input_vector != Vector2.ZERO:
-		velocity = velocity.move_toward(input_vector * max_speed, acceleration * delta)
+		$Sprite2D.modulate = Color(1, 0.5, 0.5)
 	else:
-		velocity = velocity.move_toward(Vector2.ZERO, friction * delta)
-
+		$Sprite2D.modulate = Color(1, 1, 1)
+	
 	move_and_slide()
 
-# Remove or comment out the following line:
-# /test
+func _input(event):
+	if event.is_action_pressed("ui_accept"):
+		print("Player position: ", global_position)
+		print("Player velocity: ", velocity)
+
