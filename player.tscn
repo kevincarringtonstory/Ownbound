@@ -1,24 +1,29 @@
-[gd_scene load_steps=8 format=3 uid="uid://cbvv7fndx3e28"]
+[gd_scene load_steps=10 format=3 uid="uid://cbvv7fndx3e28"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_pqwbl"]
 [ext_resource type="Texture2D" uid="uid://bg0514cj0awat" path="res://girlie.png" id="2_1rd8i"]
-[ext_resource type="Texture2D" uid="uid://b7dlyv8lc30w3" path="res://assets/Sprite-0004.png" id="4_po65g"]
+[ext_resource type="Texture2D" uid="uid://d20ptykofs3id" path="res://assets/sprites-export.png" id="3_b33xa"]
+[ext_resource type="Texture2D" uid="uid://cwci57g56xwcr" path="res://assets/sprite perfect.png" id="4_sxndf"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qnxg3"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_2taxv"]
-atlas = ExtResource("4_po65g")
-region = Rect2(0, 0, 20, 30)
+[sub_resource type="AtlasTexture" id="AtlasTexture_ffeek"]
+atlas = ExtResource("3_b33xa")
+region = Rect2(0, 0, 22, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_okaqn"]
-atlas = ExtResource("4_po65g")
-region = Rect2(23, 0, 20, 30)
+[sub_resource type="AtlasTexture" id="AtlasTexture_ftfcs"]
+atlas = ExtResource("4_sxndf")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0724v"]
+atlas = ExtResource("4_sxndf")
+region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_gbuyr"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2taxv")
+"texture": SubResource("AtlasTexture_ffeek")
 }],
 "loop": true,
 "name": &"idle",
@@ -26,10 +31,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_okaqn")
+"texture": SubResource("AtlasTexture_ftfcs")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2taxv")
+"texture": SubResource("AtlasTexture_0724v")
 }],
 "loop": true,
 "name": &"walk_left",
@@ -37,10 +42,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_okaqn")
+"texture": SubResource("AtlasTexture_0724v")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_2taxv")
+"texture": SubResource("AtlasTexture_ftfcs")
 }],
 "loop": true,
 "name": &"walk_right",
@@ -60,4 +65,4 @@ shape = SubResource("CircleShape2D_qnxg3")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gbuyr")
-animation = &"walk_left"
+animation = &"walk_right"
