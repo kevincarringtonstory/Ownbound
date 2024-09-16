@@ -11,6 +11,8 @@ var dash_timer = 0.0
 var cooldown_timer = 0.0
 var dash_direction = Vector2.ZERO  # New variable to store the dash direction
 
+var last_direction = "down"  # Initialize with a default direction
+
 func _physics_process(delta):
 	var velocity = Vector2.ZERO  # Local velocity variable
 
@@ -29,13 +31,23 @@ func _physics_process(delta):
 		
 		if input_vector != Vector2.ZERO:
 			velocity = input_vector * speed
+			# Update last direction and play walk animation
 			if input_vector.x < 0:
+				last_direction = "left"
 				animated_sprite.play("walk_left")
-			else:
+			elif input_vector.x > 0:
+				last_direction = "right"
 				animated_sprite.play("walk_right")
+			elif input_vector.y < 0:
+				last_direction = "up"
+				animated_sprite.play("walk_up")
+			elif input_vector.y > 0:
+				last_direction = "down"
+				animated_sprite.play("walk_down")
 		else:
 			velocity = Vector2.ZERO
-			animated_sprite.play("idle")
+			# Play idle animation based on the last direction
+			animated_sprite.play("idle_" + last_direction)
 		
 		if Input.is_action_just_pressed("ui_dash") and cooldown_timer <= 0 and input_vector != Vector2.ZERO:
 			is_dashing = true
@@ -49,4 +61,4 @@ func _physics_process(delta):
 	move_and_slide()
 
 func _ready():
-	animated_sprite.play("idle")
+	animated_sprite.play("idle_down")  # Start with the default idle animation
