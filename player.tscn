@@ -5,8 +5,8 @@
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_owk7w"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tx1rg"]
-radius = 8.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_72e45"]
+size = Vector2(18, 12)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uop1l"]
 atlas = ExtResource("4_sxndf")
@@ -168,9 +168,9 @@ scale = Vector2(2, 2)
 texture = SubResource("CompressedTexture2D_owk7w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-6, 2)
-shape = SubResource("CapsuleShape2D_tx1rg")
+position = Vector2(-6, 10)
+shape = SubResource("RectangleShape2D_72e45")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gbuyr")
-animation = &"walk_right"
+animation = &"idle_right"
