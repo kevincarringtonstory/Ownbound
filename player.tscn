@@ -1,10 +1,12 @@
 [gd_scene load_steps=21 format=3 uid="uid://cbvv7fndx3e28"]
 
 [ext_resource type="Script" path="res://Player.gd" id="1_pqwbl"]
-[ext_resource type="Texture2D" uid="uid://bg0514cj0awat" path="res://girlie.png" id="2_1rd8i"]
 [ext_resource type="Texture2D" uid="uid://cwci57g56xwcr" path="res://assets/sprite perfect.png" id="4_sxndf"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_qnxg3"]
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_owk7w"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tx1rg"]
+radius = 8.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uop1l"]
 atlas = ExtResource("4_sxndf")
@@ -157,16 +159,17 @@ animations = [{
 "speed": 6.0
 }]
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_pqwbl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 visible = false
 scale = Vector2(2, 2)
-texture = ExtResource("2_1rd8i")
+texture = SubResource("CompressedTexture2D_owk7w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CircleShape2D_qnxg3")
+position = Vector2(-6, 2)
+shape = SubResource("CapsuleShape2D_tx1rg")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gbuyr")
