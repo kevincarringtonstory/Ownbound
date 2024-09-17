@@ -1604,7 +1604,7 @@ sources/0 = SubResource("TileSetAtlasSource_khcs2")
 sources/1 = SubResource("TileSetAtlasSource_rnswp")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0akq4"]
-size = Vector2(14, 20)
+size = Vector2(15, 15)
 
 [node name="Node2D" type="Node2D"]
 script = SubResource("GDScript_c6jyf")
