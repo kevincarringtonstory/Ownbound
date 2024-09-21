@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://btmspdofu6wvu"
+path="res://.godot/imported/VEE2 Closed Hihat 014.wav-7981685a9f17a3fa1e461513860bd45a.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/POGO SITCK-1 Project/Samples/Imported/VEE2 Closed Hihat 014.wav"
+dest_files=["res://.godot/imported/VEE2 Closed Hihat 014.wav-7981685a9f17a3fa1e461513860bd45a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

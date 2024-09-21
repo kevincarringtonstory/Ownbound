@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ba8lgpwetct81"
+path="res://.godot/imported/VEE Percussion 020.wav-909d96682a40afd99ae131f53a78ed0d.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/mkay Project/Samples/Imported/VEE Percussion 020.wav"
+dest_files=["res://.godot/imported/VEE Percussion 020.wav-909d96682a40afd99ae131f53a78ed0d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

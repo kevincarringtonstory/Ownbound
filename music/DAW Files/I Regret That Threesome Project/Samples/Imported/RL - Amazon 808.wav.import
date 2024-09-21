@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jpwrqoi4aoja"
+path="res://.godot/imported/RL - Amazon 808.wav-8d235c4032dbc6af157c49e41965edf6.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Regret That Threesome Project/Samples/Imported/RL - Amazon 808.wav"
+dest_files=["res://.godot/imported/RL - Amazon 808.wav-8d235c4032dbc6af157c49e41965edf6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

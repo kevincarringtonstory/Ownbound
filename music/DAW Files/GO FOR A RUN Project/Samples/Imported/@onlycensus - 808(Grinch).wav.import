@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7qvrtb37840k"
+path="res://.godot/imported/@onlycensus - 808(Grinch).wav-13d7ef0668fb2684caedcae5cb40453b.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/GO FOR A RUN Project/Samples/Imported/@onlycensus - 808(Grinch).wav"
+dest_files=["res://.godot/imported/@onlycensus - 808(Grinch).wav-13d7ef0668fb2684caedcae5cb40453b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

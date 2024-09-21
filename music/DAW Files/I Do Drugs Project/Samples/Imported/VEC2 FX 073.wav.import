@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://croxundl2k1t4"
+path="res://.godot/imported/VEC2 FX 073.wav-7a491a7f567eb05adf3a36e3b3c67cc2.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Do Drugs Project/Samples/Imported/VEC2 FX 073.wav"
+dest_files=["res://.godot/imported/VEC2 FX 073.wav-7a491a7f567eb05adf3a36e3b3c67cc2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

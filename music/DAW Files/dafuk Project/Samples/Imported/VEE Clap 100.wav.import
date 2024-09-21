@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bs6rqan088muf"
+path="res://.godot/imported/VEE Clap 100.wav-9ced97b55799675cbd164514f4b1f02a.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/dafuk Project/Samples/Imported/VEE Clap 100.wav"
+dest_files=["res://.godot/imported/VEE Clap 100.wav-9ced97b55799675cbd164514f4b1f02a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

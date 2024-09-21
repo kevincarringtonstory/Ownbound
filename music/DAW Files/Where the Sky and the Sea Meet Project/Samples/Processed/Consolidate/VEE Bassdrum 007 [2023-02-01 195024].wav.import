@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5r6jx85r1nex"
+path="res://.godot/imported/VEE Bassdrum 007 [2023-02-01 195024].wav-a464c287a9dc84b87df141e8b28e02bb.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Where the Sky and the Sea Meet Project/Samples/Processed/Consolidate/VEE Bassdrum 007 [2023-02-01 195024].wav"
+dest_files=["res://.godot/imported/VEE Bassdrum 007 [2023-02-01 195024].wav-a464c287a9dc84b87df141e8b28e02bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

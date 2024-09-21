@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0l6c0ir5c18h"
+path="res://.godot/imported/OS_DO_808_big_dawg_C.wav-df0afab78635b89a7ad24f059895d3e0.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/GRoss Project/Samples/Imported/OS_DO_808_big_dawg_C.wav"
+dest_files=["res://.godot/imported/OS_DO_808_big_dawg_C.wav-df0afab78635b89a7ad24f059895d3e0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

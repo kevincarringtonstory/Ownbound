@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccbfcgn65x78s"
+path="res://.godot/imported/VEE Clap 006.wav-44d25d5135cc6e3f476aa0fa156978a6.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Regret That Threesome Project/Samples/Imported/VEE Clap 006.wav"
+dest_files=["res://.godot/imported/VEE Clap 006.wav-44d25d5135cc6e3f476aa0fa156978a6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

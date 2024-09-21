@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://d3ielj0a1m7mr"
+path="res://.godot/imported/20210728_pinkpantheress - Just For Me (Lyrics).mp3-fd480f556d0e00c8bf8529d62acea4de.mp3str"
+
+[deps]
+
+source_file="res://music/DAW Files/Just for me 1 Project/Samples/Imported/20210728_pinkpantheress - Just For Me (Lyrics).mp3"
+dest_files=["res://.godot/imported/20210728_pinkpantheress - Just For Me (Lyrics).mp3-fd480f556d0e00c8bf8529d62acea4de.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

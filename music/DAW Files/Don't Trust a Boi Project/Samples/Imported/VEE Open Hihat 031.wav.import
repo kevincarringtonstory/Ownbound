@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnxr5iy11gr4r"
+path="res://.godot/imported/VEE Open Hihat 031.wav-ee37bc101b8f34ce8429dd5c3681cdd0.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Don't Trust a Boi Project/Samples/Imported/VEE Open Hihat 031.wav"
+dest_files=["res://.godot/imported/VEE Open Hihat 031.wav-ee37bc101b8f34ce8429dd5c3681cdd0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

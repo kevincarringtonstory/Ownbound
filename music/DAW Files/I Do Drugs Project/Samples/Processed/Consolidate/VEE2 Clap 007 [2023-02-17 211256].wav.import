@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bx013c1d1qsoj"
+path="res://.godot/imported/VEE2 Clap 007 [2023-02-17 211256].wav-ef97aaa883d0d8ccc01674d5fb4ae6f6.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Do Drugs Project/Samples/Processed/Consolidate/VEE2 Clap 007 [2023-02-17 211256].wav"
+dest_files=["res://.godot/imported/VEE2 Clap 007 [2023-02-17 211256].wav-ef97aaa883d0d8ccc01674d5fb4ae6f6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

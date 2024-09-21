@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2kxcccemk046"
+path="res://.godot/imported/VEE Open Hihat 26 [2023-01-27 203145].wav-7d2313036d88b4fb3a1dcb47e75c4e4b.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Where the Sky and the Sea Meet Project/Samples/Processed/Consolidate/VEE Open Hihat 26 [2023-01-27 203145].wav"
+dest_files=["res://.godot/imported/VEE Open Hihat 26 [2023-01-27 203145].wav-7d2313036d88b4fb3a1dcb47e75c4e4b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

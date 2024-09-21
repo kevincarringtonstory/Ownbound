@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhp81a0cemsm0"
+path="res://.godot/imported/rhh_hat_one_shot_closed_high_machine_menace.wav-47c5d44ca4bb8c9eca582a5f20f8e4e6.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/first Project/Samples/Imported/rhh_hat_one_shot_closed_high_machine_menace.wav"
+dest_files=["res://.godot/imported/rhh_hat_one_shot_closed_high_machine_menace.wav-47c5d44ca4bb8c9eca582a5f20f8e4e6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjsypqqdebcap"
+path="res://.godot/imported/BOI1DA_clap_13.wav-eeebc99f05bf9eafb8b40d2169fa03cb.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/first Project/Samples/Imported/BOI1DA_clap_13.wav"
+dest_files=["res://.godot/imported/BOI1DA_clap_13.wav-eeebc99f05bf9eafb8b40d2169fa03cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

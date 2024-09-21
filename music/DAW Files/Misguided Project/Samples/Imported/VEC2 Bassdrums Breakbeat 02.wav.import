@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmw65xrcimp3i"
+path="res://.godot/imported/VEC2 Bassdrums Breakbeat 02.wav-89d76c117300e1dc52ea8255d0e5040f.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Misguided Project/Samples/Imported/VEC2 Bassdrums Breakbeat 02.wav"
+dest_files=["res://.godot/imported/VEC2 Bassdrums Breakbeat 02.wav-89d76c117300e1dc52ea8255d0e5040f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

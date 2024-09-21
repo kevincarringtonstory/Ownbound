@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqx7s10c5n1nl"
+path="res://.godot/imported/Cymatics - Grime Kick 6 [2023-02-17 225318].wav-2a61fefda51afe6d5cd5ccdeb01b9279.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Do Drugs Project/Samples/Processed/Consolidate/Cymatics - Grime Kick 6 [2023-02-17 225318].wav"
+dest_files=["res://.godot/imported/Cymatics - Grime Kick 6 [2023-02-17 225318].wav-2a61fefda51afe6d5cd5ccdeb01b9279.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

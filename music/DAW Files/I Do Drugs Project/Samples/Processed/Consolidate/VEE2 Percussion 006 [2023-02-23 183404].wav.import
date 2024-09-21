@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://db5ymdykpm7f1"
+path="res://.godot/imported/VEE2 Percussion 006 [2023-02-23 183404].wav-6b58ee6e958cb5f5cb5ddcb45573f5c4.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Do Drugs Project/Samples/Processed/Consolidate/VEE2 Percussion 006 [2023-02-23 183404].wav"
+dest_files=["res://.godot/imported/VEE2 Percussion 006 [2023-02-23 183404].wav-6b58ee6e958cb5f5cb5ddcb45573f5c4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

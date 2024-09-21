@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://243c66parm53"
+path="res://.godot/imported/20180821_Trippie Redd - Taking A Walk (Lyrics ⧸ Lyric Video).mp3-9bad8f3690fbf4cee05a57d156ea507d.mp3str"
+
+[deps]
+
+source_file="res://music/DAW Files/GO FOR A RUN Project/Samples/Imported/20180821_Trippie Redd - Taking A Walk (Lyrics ⧸ Lyric Video).mp3"
+dest_files=["res://.godot/imported/20180821_Trippie Redd - Taking A Walk (Lyrics ⧸ Lyric Video).mp3-9bad8f3690fbf4cee05a57d156ea507d.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

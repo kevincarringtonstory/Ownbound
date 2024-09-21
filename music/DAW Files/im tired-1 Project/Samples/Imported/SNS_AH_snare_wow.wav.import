@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cj7s0ulsf2t24"
+path="res://.godot/imported/SNS_AH_snare_wow.wav-39547f5532025f2dca0c7a91d06b3b52.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/im tired-1 Project/Samples/Imported/SNS_AH_snare_wow.wav"
+dest_files=["res://.godot/imported/SNS_AH_snare_wow.wav-39547f5532025f2dca0c7a91d06b3b52.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

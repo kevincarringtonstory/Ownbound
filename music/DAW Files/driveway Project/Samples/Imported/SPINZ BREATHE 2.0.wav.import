@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmi2036u5qtcp"
+path="res://.godot/imported/SPINZ BREATHE 2.0.wav-b423df5fcbec5c2f5f8b15a453973d25.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/driveway Project/Samples/Imported/SPINZ BREATHE 2.0.wav"
+dest_files=["res://.godot/imported/SPINZ BREATHE 2.0.wav-b423df5fcbec5c2f5f8b15a453973d25.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

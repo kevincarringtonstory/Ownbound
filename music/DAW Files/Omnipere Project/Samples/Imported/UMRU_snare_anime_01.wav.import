@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxw6w7lahrrym"
+path="res://.godot/imported/UMRU_snare_anime_01.wav-3a663ead502d87c1641600f58f40bf1c.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Omnipere Project/Samples/Imported/UMRU_snare_anime_01.wav"
+dest_files=["res://.godot/imported/UMRU_snare_anime_01.wav-3a663ead502d87c1641600f58f40bf1c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

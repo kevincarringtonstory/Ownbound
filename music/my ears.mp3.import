@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dpqx2npun050b"
+path="res://.godot/imported/my ears.mp3-2150eae086cc32f17e1ac10d274a18a3.mp3str"
+
+[deps]
+
+source_file="res://music/my ears.mp3"
+dest_files=["res://.godot/imported/my ears.mp3-2150eae086cc32f17e1ac10d274a18a3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

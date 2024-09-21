@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cltlckwuqcx6d"
+path="res://.godot/imported/20220307_Sam Smyers Free Acapella Pack ｜ Choose You 124 BPM Gm [2023-02-17 231221].wav-9468e51ba4b845e016728602d267f892.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Do Drugs Project/Samples/Processed/Consolidate/20220307_Sam Smyers Free Acapella Pack ｜ Choose You 124 BPM Gm [2023-02-17 231221].wav"
+dest_files=["res://.godot/imported/20220307_Sam Smyers Free Acapella Pack ｜ Choose You 124 BPM Gm [2023-02-17 231221].wav-9468e51ba4b845e016728602d267f892.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

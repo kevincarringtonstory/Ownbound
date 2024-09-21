@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c3d8g1llerp1e"
+path="res://.godot/imported/prince fights.mp3-afc6239c94c351a638f8cf7062d3e767.mp3str"
+
+[deps]
+
+source_file="res://music/mp3/prince fights.mp3"
+dest_files=["res://.godot/imported/prince fights.mp3-afc6239c94c351a638f8cf7062d3e767.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnfmfpcg37a1k"
+path="res://.godot/imported/VEE2 Clap 008.wav-a842809fa6c9950c27056acf505e5cf8.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/No Hope Project/Samples/Imported/VEE2 Clap 008.wav"
+dest_files=["res://.godot/imported/VEE2 Clap 008.wav-a842809fa6c9950c27056acf505e5cf8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

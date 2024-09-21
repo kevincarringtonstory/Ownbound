@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6o1r7e1a6tol"
+path="res://.godot/imported/SNS_AH_snare_wow.wav-1a943ac9903a108f0b046c4a8c42fb7e.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/POGO SITCK-1 Project/Samples/Imported/SNS_AH_snare_wow.wav"
+dest_files=["res://.godot/imported/SNS_AH_snare_wow.wav-1a943ac9903a108f0b046c4a8c42fb7e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

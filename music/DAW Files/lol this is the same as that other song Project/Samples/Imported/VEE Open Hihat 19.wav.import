@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://e3jbnh1u7jsl"
+path="res://.godot/imported/VEE Open Hihat 19.wav-535b6fb8ebe165b0e7e8e7f92643c11b.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/lol this is the same as that other song Project/Samples/Imported/VEE Open Hihat 19.wav"
+dest_files=["res://.godot/imported/VEE Open Hihat 19.wav-535b6fb8ebe165b0e7e8e7f92643c11b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

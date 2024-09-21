@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0f4yu6wa5lhj"
+path="res://.godot/imported/VEE Bassdrum 041.wav-a08d125ed6846e260593e9851c2f3f27.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/im tired-1 Project/Samples/Imported/VEE Bassdrum 041.wav"
+dest_files=["res://.godot/imported/VEE Bassdrum 041.wav-a08d125ed6846e260593e9851c2f3f27.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

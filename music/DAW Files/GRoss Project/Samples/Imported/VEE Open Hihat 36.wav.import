@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dejdhmve3662r"
+path="res://.godot/imported/VEE Open Hihat 36.wav-bfb6a231b65d4a7d7e2b3c742af10137.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/GRoss Project/Samples/Imported/VEE Open Hihat 36.wav"
+dest_files=["res://.godot/imported/VEE Open Hihat 36.wav-bfb6a231b65d4a7d7e2b3c742af10137.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

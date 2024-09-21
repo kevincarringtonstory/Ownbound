@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://qq0yxxfbbi2m"
+path="res://.godot/imported/SPINZ MP3 808.wav-3b5f2560cf803f55e9c3437c6ba21783.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/dafuk Project/Samples/Imported/SPINZ MP3 808.wav"
+dest_files=["res://.godot/imported/SPINZ MP3 808.wav-3b5f2560cf803f55e9c3437c6ba21783.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

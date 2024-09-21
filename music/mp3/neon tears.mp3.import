@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c84ofgo5bw8i5"
+path="res://.godot/imported/neon tears.mp3-6e3b3d0402deda44dab2164ae660d2d3.mp3str"
+
+[deps]
+
+source_file="res://music/mp3/neon tears.mp3"
+dest_files=["res://.godot/imported/neon tears.mp3-6e3b3d0402deda44dab2164ae660d2d3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

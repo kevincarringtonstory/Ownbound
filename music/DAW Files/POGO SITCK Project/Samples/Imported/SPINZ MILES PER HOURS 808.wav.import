@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d04s804q786ib"
+path="res://.godot/imported/SPINZ MILES PER HOURS 808.wav-fd0c009d2790d6bb5e990533d6d3cae3.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/POGO SITCK Project/Samples/Imported/SPINZ MILES PER HOURS 808.wav"
+dest_files=["res://.godot/imported/SPINZ MILES PER HOURS 808.wav-fd0c009d2790d6bb5e990533d6d3cae3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

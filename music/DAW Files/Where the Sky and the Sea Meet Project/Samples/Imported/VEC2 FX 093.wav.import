@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnnpafu4a3tfk"
+path="res://.godot/imported/VEC2 FX 093.wav-2dcb9ea7ab3e85102781fc46665fc196.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Where the Sky and the Sea Meet Project/Samples/Imported/VEC2 FX 093.wav"
+dest_files=["res://.godot/imported/VEC2 FX 093.wav-2dcb9ea7ab3e85102781fc46665fc196.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

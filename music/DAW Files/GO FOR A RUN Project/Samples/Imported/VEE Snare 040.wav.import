@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cku6f221i5lfp"
+path="res://.godot/imported/VEE Snare 040.wav-d81a6e20395cc80c0b4ad434c01d93c8.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/GO FOR A RUN Project/Samples/Imported/VEE Snare 040.wav"
+dest_files=["res://.godot/imported/VEE Snare 040.wav-d81a6e20395cc80c0b4ad434c01d93c8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

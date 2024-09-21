@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dw1et5rmb1r46"
+path="res://.godot/imported/VEE Clap 032.wav-6e60c734d6259bff75c91888392dbfda.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Don't Know Project/Samples/Imported/VEE Clap 032.wav"
+dest_files=["res://.godot/imported/VEE Clap 032.wav-6e60c734d6259bff75c91888392dbfda.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2bt76y6koyww"
+path="res://.godot/imported/VEE2 Bassdrum 012.wav-a8208d97f37156957b50cd9a7b8aecec.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/dafuk Project/Samples/Imported/VEE2 Bassdrum 012.wav"
+dest_files=["res://.godot/imported/VEE2 Bassdrum 012.wav-a8208d97f37156957b50cd9a7b8aecec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

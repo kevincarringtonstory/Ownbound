@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://7sbvoyjg0y27"
+path="res://.godot/imported/20221130_PinkPantheress - Boy's a liar (Official Audio).mp3-f7198526e38566c94ecd9d6bc58b23e5.mp3str"
+
+[deps]
+
+source_file="res://music/DAW Files/I Regret That Threesome Project/Samples/Imported/20221130_PinkPantheress - Boy's a liar (Official Audio).mp3"
+dest_files=["res://.godot/imported/20221130_PinkPantheress - Boy's a liar (Official Audio).mp3-f7198526e38566c94ecd9d6bc58b23e5.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

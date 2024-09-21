@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bcyiw5d8av7b6"
+path="res://.godot/imported/im tired.mp3-0fae2e3feb9cfaf08c5c373a76c93f19.mp3str"
+
+[deps]
+
+source_file="res://music/im tired.mp3"
+dest_files=["res://.godot/imported/im tired.mp3-0fae2e3feb9cfaf08c5c373a76c93f19.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

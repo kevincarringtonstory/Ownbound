@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://daau5nhjdthgc"
+path="res://.godot/imported/Franchise 808.wav-a581f87f99b8b84390380b74720821db.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Harvey Project/Samples/Imported/Franchise 808.wav"
+dest_files=["res://.godot/imported/Franchise 808.wav-a581f87f99b8b84390380b74720821db.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

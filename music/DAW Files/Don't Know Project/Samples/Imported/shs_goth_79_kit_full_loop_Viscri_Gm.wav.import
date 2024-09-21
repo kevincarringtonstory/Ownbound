@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://lff20nx8djbb"
+path="res://.godot/imported/shs_goth_79_kit_full_loop_Viscri_Gm.wav-97d90914392d0a8bbde84e66e76ad207.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Don't Know Project/Samples/Imported/shs_goth_79_kit_full_loop_Viscri_Gm.wav"
+dest_files=["res://.godot/imported/shs_goth_79_kit_full_loop_Viscri_Gm.wav-97d90914392d0a8bbde84e66e76ad207.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

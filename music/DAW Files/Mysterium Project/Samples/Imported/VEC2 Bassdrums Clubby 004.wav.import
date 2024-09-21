@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bi2tr3rf733wp"
+path="res://.godot/imported/VEC2 Bassdrums Clubby 004.wav-f9edbcbc75ec2d81984c9749de87c3a9.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Mysterium Project/Samples/Imported/VEC2 Bassdrums Clubby 004.wav"
+dest_files=["res://.godot/imported/VEC2 Bassdrums Clubby 004.wav-f9edbcbc75ec2d81984c9749de87c3a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

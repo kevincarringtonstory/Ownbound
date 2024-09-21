@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://brdfqeajyj0p0"
+path="res://.godot/imported/VEE Bassdrum 007.wav-ad2777dcbdd31ba55ffdfaf28b2f2f00.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Back and Forth Project/Samples/Imported/VEE Bassdrum 007.wav"
+dest_files=["res://.godot/imported/VEE Bassdrum 007.wav-ad2777dcbdd31ba55ffdfaf28b2f2f00.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

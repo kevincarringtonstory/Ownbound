@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dovsds26py1y1"
+path="res://.godot/imported/PMAL_Clap_you.wav-d56137c8df641d00044bb7a0b42faf74.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/GRoss Project/Samples/Imported/PMAL_Clap_you.wav"
+dest_files=["res://.godot/imported/PMAL_Clap_you.wav-d56137c8df641d00044bb7a0b42faf74.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

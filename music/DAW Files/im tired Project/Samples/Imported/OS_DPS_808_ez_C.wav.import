@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0m8q4jhunuc8"
+path="res://.godot/imported/OS_DPS_808_ez_C.wav-f7877c957b3cdae7ec4fce58a50adbbc.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/im tired Project/Samples/Imported/OS_DPS_808_ez_C.wav"
+dest_files=["res://.godot/imported/OS_DPS_808_ez_C.wav-f7877c957b3cdae7ec4fce58a50adbbc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

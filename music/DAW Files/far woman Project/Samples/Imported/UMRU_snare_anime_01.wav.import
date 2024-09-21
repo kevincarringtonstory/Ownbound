@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://byydehqby0sy2"
+path="res://.godot/imported/UMRU_snare_anime_01.wav-8731d7f04e56b7c950af4ed5954b3006.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/far woman Project/Samples/Imported/UMRU_snare_anime_01.wav"
+dest_files=["res://.godot/imported/UMRU_snare_anime_01.wav-8731d7f04e56b7c950af4ed5954b3006.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

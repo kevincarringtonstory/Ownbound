@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dn2fog2k7lkpw"
+path="res://.godot/imported/20211029_UnoTheActivist - Weak Hoes.mp3-6e8c8d455db503f988b3d931926a0dd4.mp3str"
+
+[deps]
+
+source_file="res://music/DAW Files/lol this is the same as that other song Project/Samples/Imported/20211029_UnoTheActivist - Weak Hoes.mp3"
+dest_files=["res://.godot/imported/20211029_UnoTheActivist - Weak Hoes.mp3-6e8c8d455db503f988b3d931926a0dd4.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

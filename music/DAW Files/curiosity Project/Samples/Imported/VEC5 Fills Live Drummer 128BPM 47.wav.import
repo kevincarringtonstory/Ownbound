@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2wsyo3ji5i6b"
+path="res://.godot/imported/VEC5 Fills Live Drummer 128BPM 47.wav-e2858a0673d3b54f13314d292da6aa0f.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/curiosity Project/Samples/Imported/VEC5 Fills Live Drummer 128BPM 47.wav"
+dest_files=["res://.godot/imported/VEC5 Fills Live Drummer 128BPM 47.wav-e2858a0673d3b54f13314d292da6aa0f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

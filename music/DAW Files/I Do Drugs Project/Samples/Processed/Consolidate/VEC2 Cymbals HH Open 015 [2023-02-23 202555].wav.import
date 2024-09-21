@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0s4qh1g4kti2"
+path="res://.godot/imported/VEC2 Cymbals HH Open 015 [2023-02-23 202555].wav-9231e91bedb8f9d45d57cd41cf072fbe.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/I Do Drugs Project/Samples/Processed/Consolidate/VEC2 Cymbals HH Open 015 [2023-02-23 202555].wav"
+dest_files=["res://.godot/imported/VEC2 Cymbals HH Open 015 [2023-02-23 202555].wav-9231e91bedb8f9d45d57cd41cf072fbe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cfadxfqdupwet"
+path="res://.godot/imported/VEC2 Cymbals HH Open 011 R.wav-18bb60424c7558ee5ccc2a2ec27274e7.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Mysterium Project/Samples/Processed/Reverse/VEC2 Cymbals HH Open 011 R.wav"
+dest_files=["res://.godot/imported/VEC2 Cymbals HH Open 011 R.wav-18bb60424c7558ee5ccc2a2ec27274e7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

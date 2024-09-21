@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0sv2ti7ue4y6"
+path="res://.godot/imported/SPINZ KICK 808.wav-bdd58d39f54c07fad6217d14b5ee09f6.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/dafuk Project/Samples/Imported/SPINZ KICK 808.wav"
+dest_files=["res://.godot/imported/SPINZ KICK 808.wav-bdd58d39f54c07fad6217d14b5ee09f6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

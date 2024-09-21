@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxunvl87ld316"
+path="res://.godot/imported/SPINZ ANOTHER ONE 808.wav-ef68fb7451ea8c0dac9138666e9e7115.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/Love 2023 Project/Samples/Imported/SPINZ ANOTHER ONE 808.wav"
+dest_files=["res://.godot/imported/SPINZ ANOTHER ONE 808.wav-ef68fb7451ea8c0dac9138666e9e7115.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

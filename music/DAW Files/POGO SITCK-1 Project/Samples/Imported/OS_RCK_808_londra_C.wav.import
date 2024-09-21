@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cb4rmbj6vgghq"
+path="res://.godot/imported/OS_RCK_808_londra_C.wav-84263f7c0d5408f741b54bbaddc737d4.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/POGO SITCK-1 Project/Samples/Imported/OS_RCK_808_londra_C.wav"
+dest_files=["res://.godot/imported/OS_RCK_808_londra_C.wav-84263f7c0d5408f741b54bbaddc737d4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

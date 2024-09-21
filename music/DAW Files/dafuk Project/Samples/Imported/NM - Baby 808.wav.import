@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfo700kt8eqyi"
+path="res://.godot/imported/NM - Baby 808.wav-469becaf918b79e47231bdf8a9429fa4.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/dafuk Project/Samples/Imported/NM - Baby 808.wav"
+dest_files=["res://.godot/imported/NM - Baby 808.wav-469becaf918b79e47231bdf8a9429fa4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

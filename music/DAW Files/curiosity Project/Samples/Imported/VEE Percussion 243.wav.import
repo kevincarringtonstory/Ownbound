@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://mwob2nfbxw3v"
+path="res://.godot/imported/VEE Percussion 243.wav-3965635ca97dc8a205e8166b71273de3.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/curiosity Project/Samples/Imported/VEE Percussion 243.wav"
+dest_files=["res://.godot/imported/VEE Percussion 243.wav-3965635ca97dc8a205e8166b71273de3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

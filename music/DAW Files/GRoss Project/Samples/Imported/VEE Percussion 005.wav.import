@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdjdjf2u62fib"
+path="res://.godot/imported/VEE Percussion 005.wav-3e1779b52adc5e1cc448b9f8713e6fe4.sample"
+
+[deps]
+
+source_file="res://music/DAW Files/GRoss Project/Samples/Imported/VEE Percussion 005.wav"
+dest_files=["res://.godot/imported/VEE Percussion 005.wav-3e1779b52adc5e1cc448b9f8713e6fe4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

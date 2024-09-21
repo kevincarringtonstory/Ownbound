@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b1hjcutgjgg5r"
+path="res://.godot/imported/20230124_XG (エックスジー) 「LEFT RIGHT」 [Audio].mp3-b72a5e2cc8c564a5c136ac4f2103e2f1.mp3str"
+
+[deps]
+
+source_file="res://music/DAW Files/Back and Forth Project/Samples/Imported/20230124_XG (エックスジー) 「LEFT RIGHT」 [Audio].mp3"
+dest_files=["res://.godot/imported/20230124_XG (エックスジー) 「LEFT RIGHT」 [Audio].mp3-b72a5e2cc8c564a5c136ac4f2103e2f1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
