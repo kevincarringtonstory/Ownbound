@@ -1,0 +1,85 @@
+[gd_scene load_steps=5 format=3 uid="uid://b7rwxgh318duk"]
+
+[ext_resource type="Texture2D" uid="uid://6f0gunukqc5t" path="res://assets/backgrounds/sunset.png" id="1_4bbsv"]
+[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player.tscn" id="2_0068m"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u5lql"]
+texture = ExtResource("1_4bbsv")
+texture_region_size = Vector2i(20, 20)
+16:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+16:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+16:3/0 = 0
+17:3/0 = 0
+18:3/0 = 0
+19:3/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+16:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+16:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+16:7/0 = 0
+17:7/0 = 0
+18:7/0 = 0
+19:7/0 = 0
+16:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+16:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+16:10/0 = 0
+17:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+16:11/0 = 0
+17:11/0 = 0
+18:11/0 = 0
+19:11/0 = 0
+16:12/0 = 0
+17:12/0 = 0
+18:12/0 = 0
+19:12/0 = 0
+16:13/0 = 0
+17:13/0 = 0
+18:13/0 = 0
+19:13/0 = 0
+16:14/0 = 0
+17:14/0 = 0
+18:14/0 = 0
+19:14/0 = 0
+0:0/size_in_atlas = Vector2i(16, 12)
+0:0/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_ouvgq"]
+tile_size = Vector2i(20, 20)
+sources/0 = SubResource("TileSetAtlasSource_u5lql")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2(-10, -10)
+tile_set = SubResource("TileSet_ouvgq")
+format = 2
+layer_0/tile_data = PackedInt32Array(393224, 0, 0)
+
+[node name="Player" parent="." instance=ExtResource("2_0068m")]
+position = Vector2(106, 197)

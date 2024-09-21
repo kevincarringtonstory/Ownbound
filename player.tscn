@@ -163,7 +163,6 @@ animations = [{
 script = ExtResource("1_pqwbl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-visible = false
 scale = Vector2(2, 2)
 texture = SubResource("CompressedTexture2D_owk7w")
 
@@ -173,4 +172,4 @@ shape = SubResource("RectangleShape2D_72e45")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gbuyr")
-animation = &"idle_left"
+animation = &"idle_down"
