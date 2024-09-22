@@ -6,67 +6,7 @@
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_u5lql"]
 texture = ExtResource("1_4bbsv")
 texture_region_size = Vector2i(20, 20)
-16:0/0 = 0
-17:0/0 = 0
-18:0/0 = 0
-19:0/0 = 0
-16:1/0 = 0
-17:1/0 = 0
-18:1/0 = 0
-19:1/0 = 0
-16:2/0 = 0
-17:2/0 = 0
-18:2/0 = 0
-19:2/0 = 0
-16:3/0 = 0
-17:3/0 = 0
-18:3/0 = 0
-19:3/0 = 0
-16:4/0 = 0
-17:4/0 = 0
-18:4/0 = 0
-19:4/0 = 0
-16:5/0 = 0
-17:5/0 = 0
-18:5/0 = 0
-19:5/0 = 0
-16:6/0 = 0
-17:6/0 = 0
-18:6/0 = 0
-19:6/0 = 0
-16:7/0 = 0
-17:7/0 = 0
-18:7/0 = 0
-19:7/0 = 0
-16:8/0 = 0
-17:8/0 = 0
-18:8/0 = 0
-19:8/0 = 0
-16:9/0 = 0
-17:9/0 = 0
-18:9/0 = 0
-19:9/0 = 0
-16:10/0 = 0
-17:10/0 = 0
-18:10/0 = 0
-19:10/0 = 0
-16:11/0 = 0
-17:11/0 = 0
-18:11/0 = 0
-19:11/0 = 0
-16:12/0 = 0
-17:12/0 = 0
-18:12/0 = 0
-19:12/0 = 0
-16:13/0 = 0
-17:13/0 = 0
-18:13/0 = 0
-19:13/0 = 0
-16:14/0 = 0
-17:14/0 = 0
-18:14/0 = 0
-19:14/0 = 0
-0:0/size_in_atlas = Vector2i(16, 12)
+0:0/size_in_atlas = Vector2i(24, 12)
 0:0/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_ouvgq"]
@@ -76,10 +16,24 @@ sources/0 = SubResource("TileSetAtlasSource_u5lql")
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-position = Vector2(-10, -10)
+position = Vector2(70, -10)
 tile_set = SubResource("TileSet_ouvgq")
 format = 2
 layer_0/tile_data = PackedInt32Array(393224, 0, 0)
 
 [node name="Player" parent="." instance=ExtResource("2_0068m")]
 position = Vector2(106, 197)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-6, 4.05312e-06)
+scale = Vector2(1.05617, 1.0419)
+offset = Vector2(0, -60)
+limit_left = 0
+limit_right = 480
+limit_bottom = 300
+editor_draw_limits = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(85, 197, 407, 197, 407, 218, 81, 218, 81, 226, 446, 226, 446, 195, 77, 191, 85, 218)

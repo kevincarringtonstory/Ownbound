@@ -3121,3 +3121,4 @@ layer_1/tile_data = PackedInt32Array(393225, 458752, 29, 327682, 0, 29, 393218, 
 position = Vector2(160, 120)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
+visible = false
