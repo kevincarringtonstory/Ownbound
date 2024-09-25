@@ -1,6 +1,6 @@
 [gd_scene load_steps=21 format=3 uid="uid://cbvv7fndx3e28"]
 
-[ext_resource type="Script" path="res://Player.gd" id="1_pqwbl"]
+[ext_resource type="Script" path="res://player/player.gd" id="1_pqwbl"]
 [ext_resource type="Texture2D" uid="uid://cwci57g56xwcr" path="res://assets/sprite perfect.png" id="4_sxndf"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_owk7w"]

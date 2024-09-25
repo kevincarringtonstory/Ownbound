@@ -2,9 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://cn6rlm6bcldga" path="res://assets/PC Computer - Deltarune - Scarlet Forest.png" id="1_5dd6t"]
 [ext_resource type="Texture2D" uid="uid://c6p67x241px8b" path="res://assets/crazy tree stuff.png" id="2_2mul4"]
-[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player.tscn" id="2_37vgt"]
+[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player.tscn" id="2_37vgt"]
 [ext_resource type="Texture2D" uid="uid://p3wvq4jjcwj" path="res://assets/beach.png" id="3_w673g"]
-[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change_area.tscn" id="5_4nhbc"]
+[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="5_4nhbc"]
 
 [sub_resource type="GDScript" id="GDScript_c6jyf"]
 script/source = "extends Node2D

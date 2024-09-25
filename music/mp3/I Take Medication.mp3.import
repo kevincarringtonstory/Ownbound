@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dumq6nrmcu068"
+path="res://.godot/imported/I Take Medication.mp3-3a86561a319e0a34f98bc58b6850b492.mp3str"
+
+[deps]
+
+source_file="res://music/mp3/I Take Medication.mp3"
+dest_files=["res://.godot/imported/I Take Medication.mp3-3a86561a319e0a34f98bc58b6850b492.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

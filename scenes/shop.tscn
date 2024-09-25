@@ -1,10 +1,10 @@
 [gd_scene load_steps=11 format=3 uid="uid://chh7afy1jgtod"]
 
-[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player.tscn" id="1_1s12f"]
-[ext_resource type="Texture2D" uid="uid://bvs8j0n07qxhy" path="res://assets/pear.png" id="2_fd8rr"]
-[ext_resource type="Texture2D" uid="uid://d1pnrch7226qo" path="res://assets/Interior.png" id="2_sofmw"]
-[ext_resource type="Texture2D" uid="uid://cv54dp6cj3q20" path="res://assets/vending_machine.png" id="3_4e2b7"]
-[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change_area.tscn" id="5_7rs35"]
+[ext_resource type="Texture2D" uid="uid://d1pnrch7226qo" path="res://assets/Interior.png" id="1_22nc3"]
+[ext_resource type="Texture2D" uid="uid://bvs8j0n07qxhy" path="res://assets/pear.png" id="2_0x5fm"]
+[ext_resource type="Texture2D" uid="uid://cv54dp6cj3q20" path="res://assets/vending_machine.png" id="3_g6e5t"]
+[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player.tscn" id="4_sba0u"]
+[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="5_0m5yc"]
 
 [sub_resource type="GDScript" id="GDScript_c6jyf"]
 script/source = "extends Node2D
@@ -21,7 +21,7 @@ func _process(delta: float) -> void:
 "
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_khcs2"]
-texture = ExtResource("2_sofmw")
+texture = ExtResource("1_22nc3")
 0:0/0 = 0
 3:0/0 = 0
 4:0/0 = 0
@@ -547,12 +547,12 @@ texture = ExtResource("2_sofmw")
 27:21/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rnswp"]
-texture = ExtResource("2_fd8rr")
+texture = ExtResource("2_0x5fm")
 0:0/size_in_atlas = Vector2i(2, 2)
 0:0/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_h6om3"]
-texture = ExtResource("3_4e2b7")
+texture = ExtResource("3_g6e5t")
 0:0/size_in_atlas = Vector2i(4, 4)
 0:0/0 = 0
 
@@ -575,7 +575,7 @@ layer_1/tile_data = PackedInt32Array(655383, 1638400, 11, 655384, 1703936, 11, 5
 layer_2/name = "objects on props"
 layer_2/tile_data = PackedInt32Array(524310, 851968, 6, 589846, 851968, 7, 524311, 917504, 6, 589847, 917504, 7, 524312, 983040, 6, 589848, 983040, 7, 524313, 1048576, 6, 589849, 1048576, 7)
 
-[node name="Player" parent="." instance=ExtResource("1_1s12f")]
+[node name="Player" parent="." instance=ExtResource("4_sba0u")]
 position = Vector2(294, 229)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
@@ -585,6 +585,6 @@ position = Vector2(294, 229)
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PackedVector2Array(272, 272, 272, 200, 303, 200, 303, 160, 355, 160, 360, 175, 410, 175, 414, 167, 434, 167, 464, 167, 464, 200, 464, 272, 276, 272, 276, 293, 497, 298, 491, 114, 257, 114, 249, 294, 273, 292, 272, 271)
 
-[node name="RoomChangeArea" parent="." instance=ExtResource("5_7rs35")]
+[node name="RoomChangeArea" parent="." instance=ExtResource("5_0m5yc")]
 position = Vector2(440, 251)
-room_scene = "res://Main.tscn"
+room_scene = "res://scenes/beach.tscn"
