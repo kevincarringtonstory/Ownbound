@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://5g7yymdyqlkf"]
+[gd_scene load_steps=7 format=3 uid="uid://5g7yymdyqlkf"]
 
 [ext_resource type="Texture2D" uid="uid://dp3x5bk6fmctr" path="res://assets/backgrounds/bedroom.png" id="1_bofe5"]
-[ext_resource type="PackedScene" uid="uid://bylc23rxjnap4" path="res://assets/characters/pass_silhouette.tscn" id="2_v7ars"]
+[ext_resource type="Texture2D" uid="uid://dkf1dwgq7menf" path="res://assets/backgrounds/library.png" id="2_pvkjd"]
+[ext_resource type="PackedScene" uid="uid://dw83etowt7vsv" path="res://player_silhouette.tscn" id="3_pighb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wfgpb"]
 texture = ExtResource("1_bofe5")
@@ -171,16 +172,33 @@ texture_region_size = Vector2i(20, 20)
 0:0/size_in_atlas = Vector2i(24, 12)
 0:0/0 = 0
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_vko6t"]
+texture = ExtResource("2_pvkjd")
+texture_region_size = Vector2i(20, 20)
+0:0/size_in_atlas = Vector2i(29, 12)
+0:0/0 = 0
+
 [sub_resource type="TileSet" id="TileSet_ei3xn"]
 tile_size = Vector2i(20, 20)
 sources/0 = SubResource("TileSetAtlasSource_wfgpb")
+sources/1 = SubResource("TileSetAtlasSource_vko6t")
 
 [node name="Node2D" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_ei3xn")
 format = 2
-layer_0/tile_data = PackedInt32Array(393228, 0, 0)
+layer_0/tile_data = PackedInt32Array(393231, 1, 0)
 
-[node name="Node2D" parent="." instance=ExtResource("2_v7ars")]
-position = Vector2(130, 187)
+[node name="player_silhouette" parent="." instance=ExtResource("3_pighb")]
+position = Vector2(522, 224)
+
+[node name="Camera2D" type="Camera2D" parent="player_silhouette"]
+offset = Vector2(0, -60)
+limit_left = 0
+limit_right = 600
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(603, 225, 603, 243, 120, 243, 120, 223, 598, 222, 598, 211, 105, 210, 102, 260, 612, 255, 608, 206)
