@@ -6,9 +6,9 @@ Ownbound is a thought-provoking game that explores the relationship between soci
 
 In Ownbound, players navigate through a world where materialism reigns supreme. The game offers three distinct paths to confront the final boss, each with its own unique consequences:
 
-1. **The Collector**: Gather all main items to challenge the boss directly.
-2. **The Minimalist**: Avoid all items, inspiring the populace to utilize resources for the common good and eventually rise against the ruling overlords.
-3. **The Hoarder**: Collect every available item, altering character interactions and becoming a greed-driven entity more formidable than the overlords themselves.
+1. **Collector**: Gather items to challenge the boss directly.
+2. **Freedom**: Avoid all items, inspiring the populace to utilize resources for the common good and eventually rise against the ruling overlords.
+3. **Greed**: Collect every available item, altering character interactions and becoming a greed-driven entity more formidable than the overlords themselves.
 
 At its core, Ownbound presents a narrative about consumption and power, where player choices regarding item collection and usage influence the society's fate and the player's legacy within this dystopian world.
 
