@@ -1,64 +1,54 @@
 extends CharacterBody2D
 
-@export var speed = 100
-@export var dash_speed = 300
-@export var dash_duration = 0.2
-@export var dash_cooldown = 1.0
+const speed = 100
 
 @onready var animated_sprite = $AnimatedSprite2D
-var is_dashing = false
-var dash_timer = 0.0
-var cooldown_timer = 0.0
-var dash_direction = Vector2.ZERO  # New variable to store the dash direction
+@onready var actionable_finder = $Direction/ActionableFinder
 
-var last_direction = "down"  # Initialize with a default direction
+var input_vector = Vector2.ZERO  # Declare input_vector as a class variableaaa
+
+func _ready():
+	pass # Start with the default idle animation
+
+func _unhandled_input(_event: InputEvent) -> void:
+	if Input.is_action_just_pressed("ui_accept"):
+			var actionables = actionable_finder.get_overlapping_areas()
+			if actionables.size() > 0:
+				actionables[0].action()
+				input_vector	 = Vector2.ZERO
+			return
+	
+	# Update input_vector based on axis input
+	var x_axis: float = Input.get_axis("ui_left", "ui_right")
+	var y_axis: float = Input.get_axis("ui_up", "ui_down")
+	if x_axis:
+		input_vector = x_axis * Vector2.RIGHT
+	elif y_axis:
+		input_vector = y_axis * Vector2.DOWN
+	else:
+		input_vector = Vector2.ZERO
 
 func _physics_process(delta):
 	var velocity = Vector2.ZERO  # Local velocity variable
-
-	if is_dashing:
-		dash_timer -= delta
-		if dash_timer <= 0:
-			is_dashing = false
-		else:
-			velocity = dash_direction * dash_speed  # Maintain dash velocity
-	else:
-		cooldown_timer -= delta
-		var input_vector = Vector2.ZERO
-		input_vector.x = int(Input.is_action_pressed("ui_right")) - int(Input.is_action_pressed("ui_left"))
-		input_vector.y = int(Input.is_action_pressed("ui_down")) - int(Input.is_action_pressed("ui_up"))
-		input_vector = input_vector.normalized()
-		
-		if input_vector != Vector2.ZERO:
-			velocity = input_vector * speed
-			# Update last direction and play walk animation
-			if input_vector.x < 0:
-				last_direction = "left"
-				animated_sprite.play("walk_left")
-			elif input_vector.x > 0:
-				last_direction = "right"
-				animated_sprite.play("walk_right")
-			elif input_vector.y < 0:
-				last_direction = "up"
-				animated_sprite.play("walk_up")
-			elif input_vector.y > 0:
-				last_direction = "down"
-				animated_sprite.play("walk_down")
-		else:
-			velocity = Vector2.ZERO
-			# Play idle animation based on the last direction
-			animated_sprite.play("idle_" + last_direction)
-		
-		if Input.is_action_just_pressed("ui_dash") and cooldown_timer <= 0 and input_vector != Vector2.ZERO:
-			is_dashing = true
-			dash_timer = dash_duration
-			cooldown_timer = dash_cooldown
-			dash_direction = input_vector  # Store the current input direction
-			velocity = dash_direction * dash_speed
-			animated_sprite.play("dash")
 	
+	# Removed dashing logic
+	# Update velocity based on input_vector
+	if input_vector.length() > 0:
+		velocity = input_vector * speed
+	else:
+		velocity = velocity.move_toward(Vector2.ZERO, speed)
+
+	# Update animated sprite based on velocity
+	if velocity.length() > 0:
+		if input_vector.x < 0:
+			animated_sprite.play("walk_left")
+		elif input_vector.x > 0:
+			animated_sprite.play("walk_right")
+		elif input_vector.y < 0:
+			animated_sprite.play("walk_up")
+		elif input_vector.y > 0:
+			animated_sprite.play("walk_down")
+	
+
 	self.velocity = velocity  # Assign the calculated velocity to the character's velocity
 	move_and_slide()
-
-func _ready():
-	animated_sprite.play("idle_down")  # Start with the default idle animation

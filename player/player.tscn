@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://cbvv7fndx3e28"]
+[gd_scene load_steps=22 format=3 uid="uid://cbvv7fndx3e28"]
 
 [ext_resource type="Script" path="res://player/player.gd" id="1_pqwbl"]
 [ext_resource type="Texture2D" uid="uid://cwci57g56xwcr" path="res://assets/sprite perfect.png" id="4_sxndf"]
@@ -159,6 +159,8 @@ animations = [{
 "speed": 6.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_aqc0g"]
+
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_pqwbl")
 
@@ -172,4 +174,14 @@ shape = SubResource("RectangleShape2D_72e45")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gbuyr")
-animation = &"walk_down"
+animation = &"idle_down"
+
+[node name="Direction" type="Marker2D" parent="."]
+
+[node name="ActionableFinder" type="Area2D" parent="Direction"]
+collision_layer = 0
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Direction/ActionableFinder"]
+position = Vector2(-6, 19)
+shape = SubResource("CircleShape2D_aqc0g")

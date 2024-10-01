@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=4 uid="uid://bubqtmbarifwg"]
+[gd_scene load_steps=7 format=4 uid="uid://bubqtmbarifwg"]
 
 [ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="1_jau6h"]
 [ext_resource type="Texture2D" uid="uid://p3wvq4jjcwj" path="res://assets/beach.png" id="2_qm3ja"]
 [ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player.tscn" id="3_5kp3k"]
+[ext_resource type="PackedScene" uid="uid://cc3t2jcbwd54a" path="res://characters/npc.tscn" id="4_4qvoc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_43isr"]
 texture = ExtResource("2_qm3ja")
@@ -519,3 +520,6 @@ position = Vector2(576, 324)
 position = Vector2(680, 360)
 scale = Vector2(1.4842, 1.3782)
 room_scene = "res://scenes/shop.tscn"
+
+[node name="NPC" parent="." instance=ExtResource("4_4qvoc")]
+position = Vector2(662, 295.141)
