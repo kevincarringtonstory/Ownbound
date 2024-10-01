@@ -1,11 +1,17 @@
 extends CanvasLayer
 ## A basic dialogue balloon for use with Dialogue Manager.
 
+
+@onready var talk_sound: AudioStreamPlayer2D = $TalkSound
 ## The action to use for advancing the dialogue
 @export var next_action: StringName = &"ui_accept"
 
+
+
 ## The action to use to skip typing the dialogue
 @export var skip_action: StringName = &"ui_cancel"
+
+
 
 ## The dialogue resource
 var resource: DialogueResource
@@ -162,3 +168,8 @@ func _on_responses_menu_response_selected(response: DialogueResponse) -> void:
 
 
 #endregion
+
+
+func _on_dialogue_label_spoke(letter: String, letter_index: int, speed: float) -> void:
+	if not letter in [".", " "]:
+		talk_sound.play() # Replace with function body.

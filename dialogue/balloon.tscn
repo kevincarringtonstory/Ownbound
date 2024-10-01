@@ -1,10 +1,11 @@
-[gd_scene load_steps=11 format=3 uid="uid://73jm5qjy52vq"]
+[gd_scene load_steps=12 format=3 uid="uid://73jm5qjy52vq"]
 
 [ext_resource type="Script" path="res://dialogue/balloon.gd" id="1_36de5"]
 [ext_resource type="PackedScene" uid="uid://ckvgyvclnwggo" path="res://addons/dialogue_manager/dialogue_label.tscn" id="2_a8ve6"]
 [ext_resource type="FontFile" uid="uid://bg37jgrlkopuu" path="res://assets/DTM-Mono.otf" id="2_o45sh"]
 [ext_resource type="Script" path="res://addons/dialogue_manager/dialogue_reponses_menu.gd" id="3_72ixx"]
 [ext_resource type="FontFile" uid="uid://buf1lc5ests6b" path="res://assets/DeterminationMonoWeb.woff" id="3_cfiv6"]
+[ext_resource type="AudioStream" uid="uid://cqf4bl4d6o81u" path="res://dialogue/bens.wav" id="6_28xu1"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_spyqn"]
 bg_color = Color(0, 0, 0, 1)
@@ -48,10 +49,13 @@ border_width_left = 3
 border_width_top = 3
 border_width_right = 3
 border_width_bottom = 3
+border_color = Color(0.612398, 0.839635, 0.937057, 1)
 corner_radius_top_left = 5
 corner_radius_top_right = 5
 corner_radius_bottom_right = 5
 corner_radius_bottom_left = 5
+shadow_size = 5
+anti_aliasing = false
 
 [sub_resource type="Theme" id="Theme_qq3yp"]
 default_font = ExtResource("3_cfiv6")
@@ -101,14 +105,14 @@ mouse_filter = 1
 [node name="Dialogue" type="MarginContainer" parent="Balloon/Panel"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.023
+anchor_left = 0.029
 anchor_top = 0.098
-anchor_right = 0.975
-anchor_bottom = 0.913
-offset_left = 3.21503
-offset_top = 3.85663
-offset_right = -14.9714
-offset_bottom = -4.44791
+anchor_right = 0.948
+anchor_bottom = 0.876
+offset_left = -0.120173
+offset_top = 0.010891
+offset_right = 0.0371094
+offset_bottom = -0.0455017
 grow_horizontal = 2
 grow_vertical = 2
 
@@ -130,6 +134,7 @@ unique_name_in_owner = true
 layout_mode = 2
 size_flags_vertical = 3
 text = "This is a test to see how this all looks. Hopefully it scales properly"
+seconds_per_step = 0.03
 
 [node name="Responses" type="MarginContainer" parent="Balloon"]
 visible = false
@@ -158,5 +163,9 @@ response_template = NodePath("ResponseExample")
 layout_mode = 2
 text = "Response example"
 
+[node name="TalkSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_28xu1")
+
 [connection signal="gui_input" from="Balloon" to="." method="_on_balloon_gui_input"]
+[connection signal="spoke" from="Balloon/Panel/Dialogue/VBoxContainer/DialogueLabel" to="." method="_on_dialogue_label_spoke"]
 [connection signal="response_selected" from="Balloon/Responses/ResponsesMenu" to="." method="_on_responses_menu_response_selected"]

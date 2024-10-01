@@ -3,6 +3,6 @@
 Kevin: Hi Kevin! 
 Kevin: This is a test to see something
 Kevin: How does this look?
-Kevin: Now this is really a test to see how wrapping works. I want to see 3 lines 
+Kevin: Now this is really a test to see how wrapping works.\nI want to see 3 lines 
 
 => END
