@@ -1,10 +1,12 @@
-[gd_scene load_steps=11 format=3 uid="uid://bmmu7cdk8e6nn"]
+[gd_scene load_steps=13 format=3 uid="uid://bmmu7cdk8e6nn"]
 
 [ext_resource type="Texture2D" uid="uid://cn6rlm6bcldga" path="res://assets/PC Computer - Deltarune - Scarlet Forest.png" id="1_5dd6t"]
 [ext_resource type="Texture2D" uid="uid://c6p67x241px8b" path="res://assets/crazy tree stuff.png" id="2_2mul4"]
 [ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player.tscn" id="2_37vgt"]
 [ext_resource type="Texture2D" uid="uid://p3wvq4jjcwj" path="res://assets/beach.png" id="3_w673g"]
 [ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="5_4nhbc"]
+[ext_resource type="PackedScene" uid="uid://cc3t2jcbwd54a" path="res://characters/npc.tscn" id="6_aigle"]
+[ext_resource type="AudioStream" uid="uid://c84ofgo5bw8i5" path="res://music/mp3/neon tears.mp3" id="7_hwc70"]
 
 [sub_resource type="GDScript" id="GDScript_c6jyf"]
 script/source = "extends Node2D
@@ -1458,6 +1460,9 @@ layer_1/tile_data = PackedInt32Array(786446, 262145, 1, 786447, 327681, 1, 72091
 layer_2/name = "props"
 layer_2/tile_data = PackedInt32Array(-65516, 65537, 7, 131091, 1, 10, 131092, 65537, 10, 131093, 131073, 10, 65555, 1, 9, 65556, 65537, 9, 65557, 131073, 9, 65558, 196609, 9, -131053, 1, 6, -65517, 1, 7, 19, 1, 8, -131052, 65537, 6, 20, 65537, 8, -131051, 131073, 6, -65515, 131073, 7, 21, 131073, 8, -131050, 196609, 6, -65514, 196609, 7, 22, 196609, 8, 393233, 262145, 6, 983054, 655362, 26)
 
+[node name="NPC" parent="." instance=ExtResource("6_aigle")]
+position = Vector2(226, 107)
+
 [node name="Player" parent="." instance=ExtResource("2_37vgt")]
 position = Vector2(296, 303)
 
@@ -1465,14 +1470,14 @@ position = Vector2(296, 303)
 
 [node name="RoomChangeArea" parent="." instance=ExtResource("5_4nhbc")]
 position = Vector2(350, 131)
-room_scene = "res://Shop.tscn"
-
-[node name="CollisionShape2D" parent="RoomChangeArea" index="0"]
-position = Vector2(1, 0)
+room_scene = "res://scenes/beach.tscn"
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 polygon = PackedVector2Array(264, 335, 264, 183, 239, 158, 203, 158, 203, 83, 376, 83, 375, 156, 341, 156, 317, 180, 317, 339, 264, 339, 345, 371, 342, 188, 414, 184, 415, 50, 150, 53, 145, 176, 237, 195, 237, 360)
 
-[editable path="RoomChangeArea"]
+[node name="NeonTears" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_hwc70")
+volume_db = -30.0
+autoplay = true

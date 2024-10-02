@@ -6,7 +6,7 @@
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_owk7w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_72e45"]
-size = Vector2(18, 12)
+size = Vector2(20, 12)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uop1l"]
 atlas = ExtResource("4_sxndf")
@@ -162,6 +162,8 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_aqc0g"]
 
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
+collision_layer = 2
+collision_mask = 257
 script = ExtResource("1_pqwbl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -169,7 +171,7 @@ scale = Vector2(2, 2)
 texture = SubResource("CompressedTexture2D_owk7w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-6, 10)
+position = Vector2(-5, 10)
 shape = SubResource("RectangleShape2D_72e45")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

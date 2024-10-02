@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://cc3t2jcbwd54a"]
+[gd_scene load_steps=6 format=3 uid="uid://cc3t2jcbwd54a"]
 
 [ext_resource type="Texture2D" uid="uid://bti228aciwffa" path="res://assets/punk bird.png" id="1_wi4nk"]
 [ext_resource type="PackedScene" uid="uid://balclju0v0et4" path="res://helpers/actionable.tscn" id="2_s8k6t"]
@@ -7,7 +7,12 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_f4jra"]
 radius = 25.0
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vak2w"]
+size = Vector2(31, 22)
+
 [node name="NPC" type="StaticBody2D"]
+collision_layer = 256
+collision_mask = 0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_wi4nk")
@@ -17,3 +22,7 @@ dialogue_resource = ExtResource("3_3o6ki")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2D/Actionable"]
 shape = SubResource("CircleShape2D_f4jra")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 5)
+shape = SubResource("RectangleShape2D_vak2w")

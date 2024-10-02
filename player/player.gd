@@ -21,12 +21,9 @@ func _unhandled_input(_event: InputEvent) -> void:
 	# Update input_vector based on axis input
 	var x_axis: float = Input.get_axis("ui_left", "ui_right")
 	var y_axis: float = Input.get_axis("ui_up", "ui_down")
-	if x_axis:
-		input_vector = x_axis * Vector2.RIGHT
-	elif y_axis:
-		input_vector = y_axis * Vector2.DOWN
-	else:
-		input_vector = Vector2.ZERO
+	
+	# Set input_vector based on axis input, allowing for both diagonal and straight movement
+	input_vector = Vector2(x_axis, y_axis).normalized()  # Normalize for diagonal movement
 
 func _physics_process(delta):
 	var velocity = Vector2.ZERO  # Local velocity variable

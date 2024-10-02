@@ -13,7 +13,7 @@ dest_files=["res://.godot/imported/I Take Medication.mp3-3a86561a319e0a34f98bc58
 [params]
 
 loop=false
-loop_offset=0
-bpm=0
+loop_offset=0.0
+bpm=0.0
 beat_count=0
 bar_beats=4
