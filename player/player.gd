@@ -27,8 +27,8 @@ func _unhandled_input(_event: InputEvent) -> void:
 
 func _physics_process(delta):
 	var velocity = Vector2.ZERO  # Local velocity variable
+	var animation_name: String
 	
-	# Removed dashing logic
 	# Update velocity based on input_vector
 	if input_vector.length() > 0:
 		velocity = input_vector * speed
@@ -36,15 +36,32 @@ func _physics_process(delta):
 		velocity = velocity.move_toward(Vector2.ZERO, speed)
 
 	# Update animated sprite based on velocity
-	if velocity.length() > 0:
+	#if velocity.length() > 0:
+		#if input_vector.x < 0:
+			#animated_sprite.play("walk_left")
+		#elif input_vector.x > 0:
+			#animated_sprite.play("walk_right")
+		#elif input_vector.y < 0:
+			#animated_sprite.play("walk_up")
+		#elif input_vector.y > 0:
+			#animated_sprite.play("walk_down")
+			
+	if input_vector.x == -1 or input_vector.x == 1:
 		if input_vector.x < 0:
-			animated_sprite.play("walk_left")
-		elif input_vector.x > 0:
-			animated_sprite.play("walk_right")
-		elif input_vector.y < 0:
-			animated_sprite.play("walk_up")
-		elif input_vector.y > 0:
-			animated_sprite.play("walk_down")
+			animation_name = "walk_left"
+		else:
+			animation_name = "walk_right"
+			
+	if input_vector.y == -1 or input_vector.y == 1:
+		if input_vector.y < 0:
+			animation_name = "walk_up"
+		else:
+			animation_name = "walk_down"
+			
+	if velocity.length() > 0:
+		animated_sprite.play(animation_name)
+		
+		
 	
 
 	self.velocity = velocity  # Assign the calculated velocity to the character's velocity
