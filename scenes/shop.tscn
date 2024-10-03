@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://d1pnrch7226qo" path="res://assets/Interior.png" id="1_22nc3"]
 [ext_resource type="Texture2D" uid="uid://bvs8j0n07qxhy" path="res://assets/pear.png" id="2_0x5fm"]
 [ext_resource type="Texture2D" uid="uid://cv54dp6cj3q20" path="res://assets/vending_machine.png" id="3_g6e5t"]
-[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player.tscn" id="4_sba0u"]
+[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player2.tscn" id="4_sba0u"]
 [ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="5_0m5yc"]
 
 [sub_resource type="GDScript" id="GDScript_c6jyf"]

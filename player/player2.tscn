@@ -1,71 +1,71 @@
-[gd_scene load_steps=21 format=3 uid="uid://tedju8upw0m0"]
+[gd_scene load_steps=22 format=3 uid="uid://cbvv7fndx3e28"]
 
-[ext_resource type="Script" path="res://player/player2.gd" id="1_vtgc3"]
-[ext_resource type="Texture2D" uid="uid://cwci57g56xwcr" path="res://player/sprite perfect.png" id="2_nqypk"]
+[ext_resource type="Script" path="res://player/player2.gd" id="1_pqwbl"]
+[ext_resource type="Texture2D" uid="uid://cwci57g56xwcr" path="res://player/sprite perfect.png" id="4_sxndf"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_owk7w"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_72e45"]
-size = Vector2(18, 12)
+size = Vector2(20, 12)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_uop1l"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ww008"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_bubb2"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_b1mce"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_flbdw"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(32, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4wt46"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(64, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_aa7tn"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(96, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1f8g0"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(0, 32, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_yn831"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_41mey"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_pfxp1"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_hepql"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(32, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_6r8oe"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(64, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_37nxv"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(96, 64, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xlfmd"]
-atlas = ExtResource("2_nqypk")
+atlas = ExtResource("4_sxndf")
 region = Rect2(0, 64, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_gbuyr"]
@@ -159,17 +159,31 @@ animations = [{
 "speed": 6.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_aqc0g"]
+
 [node name="Player" type="CharacterBody2D" groups=["Player"]]
-script = ExtResource("1_vtgc3")
+collision_layer = 2
+collision_mask = 257
+script = ExtResource("1_pqwbl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(2, 2)
 texture = SubResource("CompressedTexture2D_owk7w")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-6, 10)
+position = Vector2(-5, 10)
 shape = SubResource("RectangleShape2D_72e45")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_gbuyr")
-animation = &"idle_down"
+animation = &"walk_left"
+
+[node name="Direction" type="Marker2D" parent="."]
+
+[node name="ActionableFinder" type="Area2D" parent="Direction"]
+collision_layer = 0
+collision_mask = 16
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Direction/ActionableFinder"]
+position = Vector2(-6, 19)
+shape = SubResource("CircleShape2D_aqc0g")

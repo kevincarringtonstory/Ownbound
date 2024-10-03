@@ -2,7 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="1_jau6h"]
 [ext_resource type="Texture2D" uid="uid://p3wvq4jjcwj" path="res://assets/beach.png" id="2_qm3ja"]
-[ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player.tscn" id="3_5kp3k"]
+[ext_resource type="PackedScene" uid="uid://c2rmvq1f2b2hl" path="res://player/player.tscn" id="3_5kp3k"]
 [ext_resource type="PackedScene" uid="uid://cc3t2jcbwd54a" path="res://characters/npc.tscn" id="4_4qvoc"]
 [ext_resource type="AudioStream" uid="uid://dpqx2npun050b" path="res://music/mp3/my ears.mp3" id="5_faolq"]
 
@@ -516,7 +516,7 @@ tile_set = SubResource("TileSet_fswsp")
 position = Vector2(662, 295.141)
 
 [node name="Player" parent="." instance=ExtResource("3_5kp3k")]
-position = Vector2(576, 324)
+position = Vector2(625, 332.159)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 
