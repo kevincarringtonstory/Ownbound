@@ -6,3 +6,9 @@ Kevin: How does this look?
 Kevin: Now this is really a test to see how wrapping works.\nI want to see 3 lines 
 
 => END
+
+~ sign1
+
+sign1: This is a sign.
+
+=> END

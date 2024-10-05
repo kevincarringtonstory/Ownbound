@@ -517,8 +517,7 @@ position = Vector2(662, 295.141)
 
 [node name="Player" parent="." instance=ExtResource("3_5kp3k")]
 position = Vector2(625, 332.159)
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
+speed = 80
 
 [node name="RoomChangeArea" parent="." instance=ExtResource("1_jau6h")]
 position = Vector2(680, 360)
@@ -528,3 +527,6 @@ room_scene = "res://scenes/shop.tscn"
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("5_faolq")
 volume_db = -30.0
+autoplay = true
+
+[editable path="Player"]
