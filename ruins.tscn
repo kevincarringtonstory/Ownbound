@@ -2565,7 +2565,6 @@ tile_set = SubResource("TileSet_fnnl8")
 position = Vector2(171, 237)
 floor_stop_on_slope = false
 safe_margin = 0.01
-speed = 80
 
 [node name="Actionable" parent="." instance=ExtResource("3_u0s0r")]
 position = Vector2(45, 113)
