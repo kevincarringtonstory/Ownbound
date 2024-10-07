@@ -34,7 +34,7 @@ Ownbound is being developed using the Godot game engine, leveraging its powerful
 
 ## Technical Details
 
-- **Engine**: Godot 4.2
+- **Engine**: Godot 4.3
 - **Language**: GDScript
 - **Assets**: Custom pixel art for characters and environments
 
