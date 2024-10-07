@@ -2562,7 +2562,7 @@ tile_map_data = PackedByteArray("AAAAAA0AAAAHAAIAAAABAA0AAAAHAAIAAAACAA0AAAAHAAI
 tile_set = SubResource("TileSet_fnnl8")
 
 [node name="Player" parent="." instance=ExtResource("2_i1eoo")]
-position = Vector2(171, 237)
+position = Vector2(101, 280)
 floor_stop_on_slope = false
 safe_margin = 0.01
 
