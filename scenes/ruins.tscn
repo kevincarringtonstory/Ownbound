@@ -2565,6 +2565,7 @@ tile_set = SubResource("TileSet_fnnl8")
 position = Vector2(101, 280)
 floor_stop_on_slope = false
 safe_margin = 0.01
+SPEED = 100.0
 
 [node name="Camera2D" parent="Player" index="5"]
 limit_left = -50
