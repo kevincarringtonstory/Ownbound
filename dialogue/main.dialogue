@@ -10,5 +10,9 @@ Kevin: Now this is really a test to see how wrapping works.\nI want to see 3 lin
 ~ sign1
 
 sign1: This is a sign.
+- option 1
+	sign1: very good
+- option 2
+	sign1: no bueno
 
 => END

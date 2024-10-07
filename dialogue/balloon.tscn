@@ -137,17 +137,16 @@ text = "This is a test to see how this all looks. Hopefully it scales properly"
 seconds_per_step = 0.03
 
 [node name="Responses" type="MarginContainer" parent="Balloon"]
-visible = false
 layout_mode = 1
 anchors_preset = 7
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -147.0
-offset_top = -558.0
-offset_right = 494.0
-offset_bottom = -154.0
+offset_left = -137.0
+offset_top = -268.835
+offset_right = 123.0
+offset_bottom = -81.8349
 grow_horizontal = 2
 grow_vertical = 0
 
