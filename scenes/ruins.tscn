@@ -2566,6 +2566,11 @@ position = Vector2(171, 237)
 floor_stop_on_slope = false
 safe_margin = 0.01
 
+[node name="Camera2D" parent="Player" index="5"]
+limit_left = -50
+limit_top = 120
+limit_bottom = 300
+
 [node name="Actionable" parent="." instance=ExtResource("3_u0s0r")]
 position = Vector2(45, 113)
 dialogue_resource = ExtResource("4_qwo06")
