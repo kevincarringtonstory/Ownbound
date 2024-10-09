@@ -1,6 +1,7 @@
-[gd_scene load_steps=8 format=4 uid="uid://bubqtmbarifwg"]
+[gd_scene load_steps=9 format=4 uid="uid://bubqtmbarifwg"]
 
-[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="1_jau6h"]
+[ext_resource type="Script" path="res://helpers/scene_start.gd" id="1_adjvs"]
+[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://helpers/room_change/room_change_area.tscn" id="1_jau6h"]
 [ext_resource type="Texture2D" uid="uid://p3wvq4jjcwj" path="res://assets/beach.png" id="2_qm3ja"]
 [ext_resource type="PackedScene" uid="uid://c2rmvq1f2b2hl" path="res://player/player.tscn" id="3_5kp3k"]
 [ext_resource type="PackedScene" uid="uid://cc3t2jcbwd54a" path="res://characters/npc.tscn" id="4_4qvoc"]
@@ -496,6 +497,7 @@ sources/1 = SubResource("TileSetAtlasSource_43isr")
 
 [node name="Beach" type="Node2D"]
 scale = Vector2(1, 0.999522)
+script = ExtResource("1_adjvs")
 
 [node name="ocean" type="TileMapLayer" parent="."]
 use_parent_material = true
@@ -512,11 +514,11 @@ use_parent_material = true
 tile_map_data = PackedByteArray("AAAgAA4AAQAAAA0AAAAgAA8AAQAAAA4AAAAgABAAAQAAAA8AAAAgABEAAQAAABAAAAAgABIAAQAAABEAAAAgABMAAQAAABIAAAAhAA0AAQABAAwAAAAhAA4AAQABAA0AAAAhAA8AAQABAA4AAAAhABAAAQABAA8AAAAhABEAAQABABAAAAAhABIAAQABABEAAAAhABMAAQABABIAAAAiAA0AAQACAAwAAAAiAA4AAQACAA0AAAAiAA8AAQACAA4AAAAiABAAAQACAA8AAAAiABEAAQACABAAAAAiABIAAQACABEAAAAiABMAAQACABIAAAAjAA0AAQADAAwAAAAjAA4AAQADAA0AAAAjAA8AAQADAA4AAAAjABAAAQADAA8AAAAjABEAAQADABAAAAAjABIAAQADABEAAAAjABMAAQADABIAAAAkAA4AAQAEAA0AAAAkAA8AAQAEAA4AAAAkABAAAQAEAA8AAAAkABEAAQAEABAAAAAkABIAAQAEABEAAAAkABMAAQAEABIAAAA=")
 tile_set = SubResource("TileSet_fswsp")
 
+[node name="Player" parent="." instance=ExtResource("3_5kp3k")]
+position = Vector2(619, 366.175)
+
 [node name="NPC" parent="." instance=ExtResource("4_4qvoc")]
 position = Vector2(662, 295.141)
-
-[node name="Player" parent="." instance=ExtResource("3_5kp3k")]
-position = Vector2(625, 332.159)
 
 [node name="RoomChangeArea" parent="." instance=ExtResource("1_jau6h")]
 position = Vector2(680, 360)
@@ -528,4 +530,4 @@ stream = ExtResource("5_faolq")
 volume_db = -30.0
 autoplay = true
 
-[editable path="Player"]
+[editable path="RoomChangeArea"]

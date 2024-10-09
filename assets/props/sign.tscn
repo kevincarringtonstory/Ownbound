@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cfuwpjq8ucee8"]
+
+[ext_resource type="Texture2D" uid="uid://cmuflq71f4uxh" path="res://assets/tile_ruins_good one use this.png" id="1_cya50"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_igor0"]
+size = Vector2(18, 12)
+
+[node name="Sign" type="StaticBody2D"]
+collision_layer = 257
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -9)
+texture = ExtResource("1_cya50")
+region_enabled = true
+region_rect = Rect2(100, 540, 20, 20)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -4)
+shape = SubResource("RectangleShape2D_igor0")

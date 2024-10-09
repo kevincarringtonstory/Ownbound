@@ -1,4 +1,5 @@
 extends CharacterBody2D
+class_name Player
 
 @export var SPEED: float = 120
 
@@ -6,6 +7,7 @@ extends CharacterBody2D
 @onready var actionable_finder: Area2D = $Direction/ActionableFinder
 
 var input_vector: Vector2 = Vector2.ZERO  # Used for direction input
+var can_move: bool =  true
 
 func _ready() -> void:
 	animation_tree.active = true
@@ -17,7 +19,8 @@ func _unhandled_input(_event: InputEvent) -> void:
 			actionables[0].action()
 			input_vector = Vector2.ZERO
 			return
-
+			
+	
 	# Get input for both axes
 	var x_axis: float = Input.get_axis("ui_left", "ui_right")
 	var y_axis: float = Input.get_axis("ui_up", "ui_down")
@@ -28,9 +31,15 @@ func _unhandled_input(_event: InputEvent) -> void:
 	# Normalize the input_vector to prevent diagonal movement from being faster
 	if input_vector.length() > 1.0:
 		input_vector = input_vector.normalized()
+	
 
 func _physics_process(_delta: float) -> void:
 	# Update velocity based on input
+	
+	# Guard statement
+	if !can_move:
+		animation_tree.get("parameters/playback").travel("Idle")
+		return
 	if input_vector.length() > 0:
 		velocity = input_vector * SPEED
 		
@@ -50,6 +59,7 @@ func _physics_process(_delta: float) -> void:
 
 	# Update animation based on movement and collisions
 	update_animation()
+
 
 # Update animation based on the actual velocity and input direction
 func update_animation():

@@ -330,16 +330,16 @@ graph_offset = Vector2(95, -41)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2hohb"]
 size = Vector2(14, 17.4)
 
-[node name="Player" type="CharacterBody2D"]
-position = Vector2(173, 120)
+[node name="Player" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_pqwbl")
 metadata/_edit_group_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-6.5, 10)
+position = Vector2(0.5, -6)
 shape = SubResource("RectangleShape2D_ybrqh")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(7, -16)
 texture = ExtResource("2_fx6po")
 hframes = 12
 frame = 1
@@ -356,7 +356,7 @@ parameters/Idle/blend_position = Vector2(-0.279741, 0.746269)
 parameters/Walk/blend_position = Vector2(-0.000778437, 0.994696)
 
 [node name="Direction" type="Marker2D" parent="."]
-position = Vector2(-4.45, 3.74)
+position = Vector2(2.55, -12.26)
 rotation = 1.5708
 
 [node name="ActionableFinder" type="Area2D" parent="Direction"]

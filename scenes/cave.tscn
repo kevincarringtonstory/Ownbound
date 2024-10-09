@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://c6p67x241px8b" path="res://assets/crazy tree stuff.png" id="2_2mul4"]
 [ext_resource type="PackedScene" uid="uid://cbvv7fndx3e28" path="res://player/player2.tscn" id="2_37vgt"]
 [ext_resource type="Texture2D" uid="uid://p3wvq4jjcwj" path="res://assets/beach.png" id="3_w673g"]
-[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://scenes/room_change/room_change_area.tscn" id="5_4nhbc"]
+[ext_resource type="PackedScene" uid="uid://cuopyi4p22jh7" path="res://helpers/room_change/room_change_area.tscn" id="5_4nhbc"]
 [ext_resource type="PackedScene" uid="uid://cc3t2jcbwd54a" path="res://characters/npc.tscn" id="6_aigle"]
 [ext_resource type="AudioStream" uid="uid://c84ofgo5bw8i5" path="res://music/mp3/neon tears.mp3" id="7_hwc70"]
 
